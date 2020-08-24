@@ -1,0 +1,15 @@
+Algoritmo "EX: 7"
+
+var
+   altura, raio, volume: Real
+inicio
+   escreval("Informe a altura da lata: ")
+   leia(altura)
+
+   escreval("Informe o raio da circunferência da lata: ")
+   leia(raio)
+
+   volume <- 3.14 * (raio * raio) * altura
+   escreval("O volume da lata é: ", volume)
+
+Fimalgoritmo

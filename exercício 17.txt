@@ -1,0 +1,28 @@
+Algoritmo "EX: 17"
+
+var
+   vet: vetor[1..20] de inteiro
+   i, par, impar, maior50, menor7: inteiro
+
+
+inicio
+   par <- impar <- maior50 <- menor7 <- 0
+   para i <- 0 ate 19 faca
+      leia(vetor[i])
+
+      se  (vetor[i] > 50)
+         maior50 <- maior50 + 1
+      fimse
+
+      se  (vetor[i] < 7)
+         menor7 <- menor7 + 1
+      fimse
+
+      se  (vetor[i]%2=0)
+         par <- par + 1
+      senao
+         impar <- impar + 1
+
+      fimse
+   fimpara
+Fimalgoritmo

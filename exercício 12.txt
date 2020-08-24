@@ -1,0 +1,14 @@
+Algoritmo "EX: 12"
+
+var
+a,b,c: inteiro
+
+inicio
+
+escreval ("Digite um número inteiro: ")
+leia (a)
+b<- a-1
+c<- a+1
+escreval ("Número antecessor:", b, " Número sucessor: ", c)
+
+Fimalgoritmo

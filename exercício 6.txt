@@ -1,0 +1,13 @@
+Algoritmo "EX: 6"
+
+var
+temp_celsius, temp_fahrenheit: real
+
+inicio
+   escreval ("Informe a temperatura em fahrenheit: ")
+   leia (temp_fahrenheit)
+   temp_celsius<-  5 * (temp_fahrenheit - 32) /9
+   escreval ("A temperatura em graus Celsius é: ", temp_celsius)
+
+
+Fimalgoritmo

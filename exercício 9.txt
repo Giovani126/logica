@@ -1,0 +1,29 @@
+Algoritmo "EX: 9"
+
+Var
+   nome: caracter
+   diaria: inteiro
+   servico: real
+   total: real
+Inicio
+   escreval ("Informe seu nome: ")
+   leia (nome)
+   escreval ("Informe quantos dias irá passar: ")
+   leia (diaria)
+   se diaria > 15  entao
+      servico<-5.50
+      total <- servico + 60
+   senao
+      se diaria=15  entao
+         servico<-6
+         total <- servico + 60
+      senao
+         se diaria < 15  entao
+            servico<-8
+            total <- servico + 60
+         fimse
+      fimse
+   fimse
+   escreval ("Mostre o total: ", total)
+
+Fimalgoritmo

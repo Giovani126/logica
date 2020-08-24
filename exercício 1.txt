@@ -1,0 +1,15 @@
+Algoritmo "Ex: 1"
+
+Var
+area, raio, p_i: real
+
+
+Inicio
+ p_i<- 3.14159
+ escreval ("Informe o valor de raio: ")
+ leia (raio)
+ area<- p_i*raio*raio
+ escreval ("Valor da area é: ", area)
+
+
+Fimalgoritmo

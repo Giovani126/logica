@@ -1,0 +1,17 @@
+Algoritmo "EX: 3"
+
+Var
+num1, num2: inteiro
+resultado: inteiro
+
+
+Inicio
+escreval ("Digite um número: ")
+leia (num1)
+escreval ("Digite outro número: ")
+leia (num2)
+ resultado<- num1 + num2
+ escreval ("Informe o resultado: ", resultado)
+
+
+Fimalgoritmo

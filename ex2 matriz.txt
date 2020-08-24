@@ -1,0 +1,23 @@
+Algoritmo "Ex: 2 (Matriz)"
+
+Var
+   numeros: vetor[1..3, 1..3] de inteiro
+   x, y, soma: inteiro
+
+
+Inicio
+   para x de 1 ate 3 faca
+      para y de 1 ate 3 faca
+         escreva ("Digite um valor para posição: [", x, ",", y, "]: ")
+         leia (numeros[x,y])
+      fimpara
+   fimpara
+   para x de 1 ate 3 faca
+      soma <- 0
+      para y de 1 ate 3 faca
+         soma <- soma + numeros[x,y]
+      fimpara
+      escreval("Soma da linha é: ", x, ": ", soma)
+   fimpara
+
+Fimalgoritmo

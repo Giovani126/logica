@@ -1,0 +1,16 @@
+Algoritmo "EX: 13"
+
+Var
+   numeros: vetor[1..10] de inteiro
+   i: inteiro
+
+Inicio
+   para i de 1 ate 10 faca
+      escreva ("Digite um número: ")
+      leia (numeros[i])
+   fimpara
+   escreva ("A ordem dos números é: ")
+   para i de 1 ate 10 faca
+      escreva (numeros[i])
+   fimpara
+Fimalgoritmo

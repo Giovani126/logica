@@ -1,0 +1,12 @@
+Algoritmo "EX: 5"
+
+Var C , F: real
+
+Inicio
+
+Escreval ("Temperatura em graus Celsius: ")
+leia (C)
+F <- (9 * C + 160)/5
+Escreval ("A temperatura convertida para Fahrenheit é:", F)
+
+Fimalgoritmo

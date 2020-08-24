@@ -1,0 +1,31 @@
+Algoritmo "EX: 10"
+
+Var
+   codProd: inteiro
+   qtd: real
+   preco: real
+
+Inicio
+   escreval("Informe a quantidade do produto: ")
+   leia(qtd)
+
+   escreval("Informe o codigo do produto: ")
+   leia(codProd)
+
+   escolha (codProd)
+   caso 1001
+      escreva("O valor a ser pago é ", + 5.32*qtd)
+   caso 1324
+      escreva("O valor a ser pago é ", + 6.45*qtd)
+   caso 6548
+      escreva("O valor a ser pago é ", + 2.37*qtd)
+   caso 987
+      escreva("O valor a ser pago é ", + 5.32*qtd)
+   caso 7623
+      escreva("O valor a ser pago é ", + 6.45*qtd)
+
+   senao
+      escreva("Este código é invalido!")
+   fimEscolha
+
+Fimalgoritmo

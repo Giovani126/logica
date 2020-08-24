@@ -1,0 +1,15 @@
+Algoritmo "EX: 2"
+
+Var
+area, base, altura: real
+
+
+Inicio
+escreval ("Informe o valor da base: ")
+leia (base)
+escreval ("Informe o valor da altura: ")
+leia (altura)
+area<- (base*altura)/2
+escreval ("O valor da area é: ", area)
+
+Fimalgoritmo

@@ -1,0 +1,20 @@
+Algoritmo "EX: 4"
+
+var
+HT, VH, PD, SB, TD, SL:REAL
+inicio
+escreval ("INFORME A QUANTIDADE DE HORAS TRABALHADA NO MES: ")
+leia (HT)
+escreval ("INFORME O VALOR DA HORA TRABALHADA: ")
+leia (VH)
+escreval ("INFORME O PERCENTUAL DE DESCONTO: ")
+leia (PD)
+SB <- HT * VH
+TD <- (PD/100)*SB
+SL <- SB - TD
+escreval ("TOTAL DE HORAS TRABALHADA: ",HT)
+escreval ("SALARIO BRUTO: R$", SB)
+escreval ("TOTAL DE DESCONTO: R$", TD)
+escreval ("SALARIO LIQUIDO: R$", SL)
+
+Fimalgoritmo
